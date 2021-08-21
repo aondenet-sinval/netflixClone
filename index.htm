@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> 
+    <!---Responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <title>Recriando Netflix</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="logo">NETFLIX</h2>
+                <nav class="w3-bar w3-black w3-card">
+                    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inicio</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Séries</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Filmes</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Documentários</a>                                                            
+                </nav>
+                <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Inicio</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Séries</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Filmes</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Documentários</a> 
+                  </div>
+            </div>
+        </header>  
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <h5 class="titulo">MACGYVER - PROFISSÃO PERIGO</h5> 
+                    <p class="descricao">Angus MacGyver é um tipo de agente secreto pouco convencional. Ele é discreto, não anda por aí vestindo smoking e se recusa a carregar uma arma de fogo.
+                    </p>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="far fa-play-circle"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>  
+                    </div>
+                </div>              
+            </div>
+        </main>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-1.jpg" alt="" srcset="">
+                </div>
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-2.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-3.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-4.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-5.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-6.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-7.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-8.jpg" alt="" srcset="">
+                </div>                
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-9.jpg" alt="" srcset="">
+                </div>
+                <div class="items">
+                    <img class="box-filmes" src="img/mini-10.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/8e7ee5eff9.js" crossorigin="anonymous"></script> 
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+    </body>
+</html>

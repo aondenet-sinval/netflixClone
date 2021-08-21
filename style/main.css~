@@ -1,0 +1,98 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+/*Declarando acima as variáveis*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 40px;
+}  
+header nav a{
+    text-decoration: none;
+    color: darkgray;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50%),rgba(0,0,0,.100%)), url('./img/mgv1.jpg');
+    max-width: 100%;
+    height: 400px;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Botões*/
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+
+    padding: 10px 10px;
+    margin-right: 12px;
+    font-size: 13px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    width: 190px;
+    height: 30px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+.botao i{
+    margin-right: 12px;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Imagens minificadas filmes*/
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/main.css">
+        <!---Responsividade-->
+    <link rel="stylesheet" href="./style/responsive.css">
+
+    <title>Recriando Netflix</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="logo">NETFLIX</h2>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>                                                            
+                </nav>
+            </div>
+        </header>  
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <h3 class="titulo">MACGYVER - PROFISSÃO PERIGO</h3> 
+                    <p class="descricao">Angus MacGyver é um tipo de agente secreto pouco convencional. Ele é discreto, não anda por aí vestindo smoking e se recusa a carregar uma arma de fogo.
+                    </p>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="far fa-play-circle"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>  
+                    </div>
+                </div>              
+            </div>
+        </main>
+
+    </body>
+</html>
